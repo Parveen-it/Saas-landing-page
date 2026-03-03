@@ -1,0 +1,93 @@
+/*
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  */
+
+body{
+    background-color: #2B2B2B;
+}
+
+*{
+    font-family: "Space Grotesk", sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    margin: 2rem 0 0 2rem;
+}
+
+.logo-li:link,
+.logo-li:hover,
+.logo-li:active,
+.logo-li:visited{
+    color: #fff;
+    font-size: 1.6rem;
+    width: 100%;
+    font-weight: 700;
+}
+
+.main-sec{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem;
+    margin-top: 8rem ;
+}
+
+.main-sec-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4.4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+
+.main-sec-content >*{
+  line-height: 2.8rem;
+}
+
+.main-sec-content button{
+  min-width: 48px;
+  padding: 0 3rem;
+  align-self: center;
+  border-radius: 1rem;
+  color: #2B2B2B;
+  background-color: #F8D57E;
+  font-size: 1.1rem;
+}
+
+
+
+.hero-image{
+  margin-top: 2rem;
+  width: 100%;
+  object-position: center;
+  background-color: #333333;
+  border-radius: 1rem;
+}
+
+
+@media (min-width: 600px) {
+  .main-sec{
+    flex-direction: row;
+  }
+}
