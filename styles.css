@@ -242,6 +242,10 @@ header{
   color: #BCBCBC;
 }
 
+.cta-sec-image{
+  width: 100%;
+}
+
 footer{
   border-top: 1px solid #868686;
   padding: 2rem 0;
